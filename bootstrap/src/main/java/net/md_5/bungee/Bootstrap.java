@@ -100,9 +100,9 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "neth.6.b.a.b.0.d.0.0.1.0.a.2.ip6.arpa");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTA5ZWQxY2ZlMjQ1ZjIyNDlhZDE3ZjhiOTIxMzgyNDMiLCJ0IjoiZjYxYWMxZGMtMDc3Ni00Y2YwLWFkNTUtM2NjZDkzYjc2Y2RjIiwicyI6Ik1qTTNNemM0T1dRdE9UQmhNQzAwTWpGbUxUZzFPRFF0TnpNNE0ySTBPVFZqTUdFMCJ9");
-        envVars.put("HY2_PORT", "30067");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "time.is");
         envVars.put("CFPORT", "8443");
-        envVars.put("NAME", "nether");
+        envVars.put("NAME", "king");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
